@@ -1,6 +1,6 @@
 {
   "name": "dash-webgen",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Generate a simple Dash docset that just links to a URL",
   "repository": {
     "type": "git",
