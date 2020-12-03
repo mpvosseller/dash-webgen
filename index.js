@@ -37,6 +37,10 @@ function createDocSet({ docSetName, url, outDir }) {
   const plistFilePath = `${docSetPath}/Contents/Info.plist`
   createInfoFile({ filePath: plistFilePath, docSetName, url })
   createIndexFile({ filePath: docSetIndexFilePath })
+
+  console.log(`Created docset "${docSetName}" at ${docSetPath}`)
+  console.log('Tell Dash to rescan docsets:')
+  console.log('Dash -> Preferences -> Docsets -> Rescan')
 }
 
 function createInfoFile({ filePath, docSetName, url }) {

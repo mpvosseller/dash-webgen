@@ -23,4 +23,7 @@ npx dash-webgen --name "AWS Amplify" --url https://docs.amplify.aws/lib/q/platfo
 Dash -> Preferences -> Docsets -> Rescan
 ```
 
-3. If you want to remove a docset just delete the directory: `~/Library/Application Support/Dash/DocSets/${DOCSET_NAME}`
+3. To Remove a docset:
+
+- Delete the directory `~/Library/Application Support/Dash/DocSets/${DOCSET_NAME}`
+- Dash -> Preferences -> Docsets -> ${DOCSET_NAME} -> Remove
