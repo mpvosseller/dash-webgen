@@ -1,0 +1,23 @@
+{
+  "name": "dash-webgen",
+  "version": "0.1.0",
+  "description": "Generate a simple Dash docset that just links to a URL",
+  "main": "index.js",
+  "bin": {
+    "dash-webgen": "index.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --fix 'index.js'",
+    "lint:nofix": "eslint 'index.js'"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "yargs": "^16.1.1"
+  }
+}
