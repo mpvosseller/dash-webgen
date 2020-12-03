@@ -2,6 +2,17 @@
   "name": "dash-webgen",
   "version": "0.1.0",
   "description": "Generate a simple Dash docset that just links to a URL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpvosseller/dash-webgen.git"
+  },
+  "keywords": [
+    "dash",
+    "docset"
+  ],
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "bin": {
     "dash-webgen": "index.js"
@@ -9,7 +20,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --fix 'index.js'",
-    "lint:nofix": "eslint 'index.js'"
+    "lint:nofix": "eslint 'index.js'",
+    "prepublishOnly": "yarn lint:nofix"
   },
   "devDependencies": {
     "eslint": "^7.14.0",
